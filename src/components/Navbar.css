@@ -1,0 +1,35 @@
+.navbar{
+    border: 1px solid;
+    height: 60px;
+    padding-right: 70px;
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.navbar>img{
+    width: 100px;
+}
+.search>input{
+    width: 30vw;
+    height: 35px;
+}
+
+
+.navbar_items{
+    display: flex;
+    justify-content: space-between;
+
+    margin-left: 10px;
+    gap: 20px;
+    font-size: larger;
+}
+.navbtn{
+   padding: 3px 15px;
+   border-radius: 4px;
+   background-color:brown;
+   color: white;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   
+}
